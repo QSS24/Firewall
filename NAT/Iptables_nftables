@@ -1,0 +1,8 @@
+Customed_firewall.sh
+
+#!/bin/venv/ -bash
+Flush Ruleset
+Set -uxe
+
+Global [ {ips='$@'}, (Date '%T %F'), Source = ]
+
